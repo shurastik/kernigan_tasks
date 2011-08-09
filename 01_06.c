@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+main() {
 	long nc;
 	int c;
 	nc = 0;

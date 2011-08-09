@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+main() {
 	int current_char;
 	int space_count = 0;
 	while ((current_char = getchar()) != EOF) {
