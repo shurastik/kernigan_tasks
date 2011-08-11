@@ -11,6 +11,8 @@ main() {
 	int ch;
 	int in_word = FALSE;
 	while ((ch = getchar()) != EOF) {
-		
+		if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+			putchar(ch);
+		}
 	}
 }
